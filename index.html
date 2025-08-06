@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ex24 - быстрый и надежный обмен USDT на фиатные валюты. Лучшие курсы, мгновенные обмены, 24/7 поддержка.">
+    <meta name="keywords" content="обмен USDT, USDT на рубли, купить USDT, продать USDT, обменник криптовалют, Ex24">
+    <title>Ex24 - Быстрый и надежный обмен USDT на фиатные валюты</title>
+    <link rel="canonical" href="https://ex24.io/">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = '49e01cdd093fab696e62063316b764d099259cc4';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Ex24 Logo">
+                <span>Ex24</span> - Обмен USDT
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="https://t.me/ex24_payments_bot" target="_blank">Поддержка</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="exchange-app">
+            <div class="exchange-container" id="exchange-form">
+                <div class="exchange-header">
+                    <h1>Быстрый и надежный обмен USDT</h1>
+                    <p>Лучшие курсы обмена с гарантией безопасности</p>
+                </div>
+                
+                <form class="exchange-form" id="exchangeForm">
+                    <div class="form-group">
+                        <label class="form-label" for="sendAmount">Отдаете</label>
+                        <div class="currency-selector">
+                            <input type="number" id="sendAmount" class="form-control" placeholder="1000" value="1000" min="10">
+                            <select id="sendCurrency">
+                                <option value="USDT" selected>USDT</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-label">Сеть USDT:</div>
+                        <div class="network-selector" id="networkSelector">
+                            <div class="network-btn active" data-network="trc20">TRC-20</div>
+                            <div class="network-btn" data-network="erc20">ERC-20</div>
+                            <div class="network-btn" data-network="bep20">BEP-20</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="receiveAmount">Получаете</label>
+                        <div class="currency-selector">
+                            <input type="number" id="receiveAmount" class="form-control" placeholder="0" readonly>
+                            <select id="receiveCurrency">
+                                <option value="RUB">RUB - Российский рубль</option>
+                                <option value="USD">USD - Доллар США</option>
+                                <option value="EUR">EUR - Евро</option>
+                                <option value="GBP">GBP - Фунт стерлингов</option>
+                                <option value="JPY">JPY - Японская иена</option>
+                                <option value="CNY">CNY - Китайский юань</option>
+                                <option value="TRY">TRY - Турецкая лира</option>
+                                <option value="UAH">UAH - Украинская гривна</option>
+                                <option value="KZT">KZT - Казахстанский тенге</option>
+                                <option value="BYN">BYN - Белорусский рубль</option>
+                                <option value="AED">AED - Дирхам ОАЭ</option>
+                                <option value="THB">THB - Тайский бат</option>
+                                <option value="VND">VND - Вьетнамский донг</option>
+                                <option value="INR">INR - Индийская рупия</option>
+                                <option value="IDR">IDR - Индонезийская рупия</option>
+                                <option value="MYR">MYR - Малайзийский ринггит</option>
+                                <option value="SGD">SGD - Сингапурский доллар</option>
+                                <option value="HKD">HKD - Гонконгский доллар</option>
+                                <option value="CAD">CAD - Канадский доллар</option>
+                                <option value="AUD">AUD - Австралийский доллар</option>
+                                <option value="NZD">NZD - Новозеландский доллар</option>
+                                <option value="BRL">BRL - Бразильский реал</option>
+                                <option value="MXN">MXN - Мексиканское песо</option>
+                                <option value="ZAR">ZAR - Южноафриканский рэнд</option>
+                                <option value="PLN">PLN - Польский злотый</option>
+                                <option value="CHF">CHF - Швейцарский франк</option>
+                                <option value="SEK">SEK - Шведская крона</option>
+                                <option value="NOK">NOK - Норвежская крона</option>
+                                <option value="DKK">DKK - Датская крона</option>
+                                <option value="CZK">CZK - Чешская крона</option>
+                                <option value="HUF">HUF - Венгерский форинт</option>
+                                <option value="RON">RON - Румынский лей</option>
+                                <option value="ILS">ILS - Израильский шекель</option>
+                                <option value="CLP">CLP - Чилийское песо</option>
+                                <option value="PHP">PHP - Филиппинское песо</option>
+                                <option value="PKR">PKR - Пакистанская рупия</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="exchange-rate">
+                        Текущий курс: <strong>1 USDT = 80.00 RUB</strong> (фиксированный курс)
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <h3>Способ получения:</h3>
+                        <div class="method-grid" id="paymentMethods">
+                            <div class="method-item" data-method="visa">
+                                <img src="cash.png" alt="Visa">
+                                <div>Visa</div>
+                            </div>
+                            <div class="method-item" data-method="mastercard">
+                                <img src="cash.png" alt="Mastercard">
+                                <div>Mastercard</div>
+                            </div>
+                            <div class="method-item" data-method="bank">
+                                <img src="bank.png" alt="Bank Transfer">
+                                <div>Банковский перевод</div>
+                            </div>
+                            <div class="method-item" data-method="courier">
+                                <img src="cura.png" alt="Courier">
+                                <div>Курьерская доставка</div>
+                            </div>
+                            <div class="method-item" data-method="wu">
+                                <img src="cash.png" alt="Western Union">
+                                <div>Western Union</div>
+                            </div>
+                            <div class="method-item" data-method="paypal">
+                                <img src="pp.webp" alt="PayPal">
+                                <div>PayPal</div>
+                            </div>
+                            <div class="method-item" data-method="skrill">
+                                <img src="bankomat.png" alt="Skrill">
+                                <div>Банкомат</div>
+                            </div>
+                            <div class="method-item" data-method="webmoney">
+                                <img src="web.jpg" alt="WebMoney">
+                                <div>WebMoney</div>
+                            </div>
+                            <div class="method-item" data-method="cash">
+                                <img src="cash.png" alt="Cash">
+                                <div>Наличные в офисе</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-block">Обменять</button>
+                    <a href="https://t.me/ex24_payments_bot" class="btn btn-block btn-telegram" target="_blank">
+                        <img src="https://cdn.worldvectorlogo.com/logos/telegram-1.svg" alt="Telegram">
+                        Обменять в Telegram
+                    </a>
+                </form>
+                
+                <div class="info-box">
+                    <h3>Информация об обмене</h3>
+                    <ul>
+                        <li>Минимальная сумма обмена: 10 USDT</li>
+                        <li>Заявка действует: 30 минут</li>
+                        <li>Обработка заявки начинается автоматически после 1 подтверждения в сети</li>
+                        <li>Комиссии сети оплачиваются отправителем</li>
+                        <li>Круглосуточная поддержка в Telegram</li>
+                    </ul>
+                    <p>После создания заявки вы получите адрес кошелька для перевода USDT.</p>
+                </div>
+            </div>
+            
+            <div class="exchange-container qr-section" id="qr-section">
+                <div class="exchange-header">
+                    <h1>Отправьте USDT для завершения обмена</h1>
+                    <p>Переведите точную сумму на указанный адрес</p>
+                </div>
+                
+                <div class="qr-code" id="qrCode">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=TMhsB1GUsjMVL9RL8vPnMPUb1Jwf4Nkwpb" alt="QR Code">
+                </div>
+                
+                <div class="wallet-address" id="walletAddress">
+                    TMhsB1GUsjMVL9RL8vPnMPUb1Jwf4Nkwpb
+                </div>
+                
+                <div class="timer" id="timer">30:00</div>
+                
+                <div class="info-box">
+                    <h3>Инструкция по переводу</h3>
+                    <p>Отправьте <strong id="sendAmountDisplay">1000 USDT</strong> (<span id="networkDisplay">TRC-20</span>) на указанный адрес кошелька.</p>
+                    <p>После 1 подтверждения в сети обработка вашей заявки начнется автоматически.</p>
+                    <p>Адреса для получения:</p>
+                    <ul>
+                        <li><strong>TRC20:</strong> TMhsB1GUsjMVL9RL8vPnMPUb1Jwf4Nkwpb</li>
+                        <li><strong>ERC20:</strong> 0x8D86E06358dc89520204F654DAF5832f1731E040</li>
+                        <li><strong>BEP20:</strong> 0x8D86E06358dc89520204F654DAF5832f1731E040</li>
+                    </ul>
+                    <p>Внимание! Отправка средств с других сетей приведет к потере средств!</p>
+                </div>
+                
+                <a href="#" class="btn btn-block" id="backBtn">Вернуться к обмену</a>
+            </div>
+        </div>
+        
+        <div class="faq-section" id="faq">
+            <h2>Часто задаваемые вопросы</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Как долго длится обмен?</div>
+                <div class="faq-answer">
+                    <p>Время обработки заявки зависит от способа получения средств. В среднем:</p>
+                    <ul>
+                        <li>Карты Visa/Mastercard: 5-15 минут</li>
+                        <li>Банковские переводы: 1-3 рабочих дня</li>
+                        <li>Электронные кошельки: 5-30 минут</li>
+                        <li>Наличные: зависит от графика курьера или офиса</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Какие комиссии при обмене?</div>
+                <div class="faq-answer">
+                    <p>Наш сервис берет комиссию 0.5-2% в зависимости от суммы и направления обмена. Комиссии сети (TRC20, ERC20, BEP20) оплачиваются отправителем.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Какой минимальный и максимальный лимит?</div>
+                <div class="faq-answer">
+                    <p>Минимальная сумма обмена - 100 USDT. Максимальная сумма зависит от выбранного способа получения:</p>
+                    <ul>
+                        <li>Карты: до 15000 USD в сутки</li>
+                        <li>Банковские переводы: до 150 000 USD в сутки</li>
+                        <li>Электронные кошельки: до 100 000 USD в сутки</li>
+                        <li>Наличные: до 1 000 000 USD по согласованию</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Нужна ли верификация?</div>
+                <div class="faq-answer">
+                    <p>Для сумм до 1000 USD в эквиваленте верификация не требуется. Для больших сумм может потребоваться подтверждение личности для соблюдения AML/KYC политики.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Что делать, если я отправил не ту сумму?</div>
+                <div class="faq-answer">
+                    <p>Немедленно свяжитесь с нашей поддержкой в Telegram (@ex24_payments_bot). Мы постараемся помочь, но гарантии возврата средств в таком случае нет.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Какой курс используется при обмене?</div>
+                <div class="faq-answer">
+                    <p>Курс фиксируется на момент создания заявки и действует в течение 30 минут. Мы используем среднерыночный курс с небольшим отклонением в нашу пользу (обычно 0.5-1.5%).</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="seo-text">
+            <h2>Ex24 - Лучший обменник USDT на фиатные валюты</h2>
+            <p>Ex24 предоставляет быстрый и безопасный обмен USDT на национальные валюты более чем 35 стран. Наш сервис специализируется на выводе USDT в кэш с минимальными комиссиями и максимальным удобством для клиентов.</p>
+            
+            <p>Мы работаем с 2018 года и за это время провели тысячи успешных обменов. Наши преимущества:</p>
+            
+            <ul>
+                <li>Фиксированные курсы на 30 минут</li>
+                <li>Поддержка всех популярных сетей USDT (TRC20, ERC20, BEP20)</li>
+                <li>Множество способов получения средств</li>
+                <li>Круглосуточная поддержка в Telegram</li>
+                <li>Прозрачные условия без скрытых комиссий</li>
+            </ul>
+            
+            <p>Обмен USDT на рубли, доллары, евро и другие валюты теперь занимает всего несколько минут. Просто выберите сумму, способ получения и следуйте инструкциям. Наш автоматизированный сервис обеспечивает мгновенное создание заявок и быструю обработку переводов.</p>
+            
+            <p>Для крупных сумм (от 10 000 USDT) доступны специальные условия - свяжитесь с нашим менеджером в Telegram для уточнения деталей. Мы гарантируем безопасность и конфиденциальность всех операций.</p>
+        </div>
+        
+        <footer>
+            <p>© 2023 Ex24. Все права защищены.</p>
+            <p>Контактная поддержка: <a href="https://t.me/ex24_payments_bot" target="_blank">@ex24_payments_bot</a></p>
+            <p>Пресненская набережная, д. 6, стр. 2, Москва, Москва‑Сити</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
